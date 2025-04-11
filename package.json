@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "yarn dev:server & yarn dev:client",
+    "dev:client": "nuxt dev",
+    "dev:server": "node server/index.js",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "heic-convert": "^2.1.0",
+    "heic2any": "^0.0.4",
+    "multer": "^1.4.5-lts.2",
+    "nuxt": "^3.16.2",
+    "sharp": "^0.34.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "ws": "^8.18.1"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "devDependencies": {
+    "@nuxt/content": "^3.4.0",
+    "@nuxt/fonts": "^0.11.1",
+    "@nuxt/icon": "^1.11.0",
+    "@nuxt/image": "^1.10.0",
+    "@nuxt/scripts": "^0.11.5",
+    "@nuxt/test-utils": "^3.17.2",
+    "@nuxt/ui": "^3.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/node": "^22.14.0",
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.8.3"
+  }
+}
