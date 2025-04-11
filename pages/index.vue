@@ -30,18 +30,7 @@
           @connection-change="handleConnectionChange"
         />
       </ClientOnly>
-      
-      <div v-if="currentPeerId" class="peer-info">
-        <h3>Your Connection Info</h3>
-        <p>Your ID: <strong>{{ currentPeerId }}</strong></p>
-        <p>Share this ID with others to receive calls</p>
-        
-        <div class="copy-section">
-          <input :value="currentPeerId" ref="peerIdInput" readonly />
-          <button @click="copyPeerId">Copy ID</button>
-        </div>
-      </div>
-      <pre>{{ activeCall }}</pre>
+    
       <div v-if="activeCall" class="call-status">
         <h3>Active Call</h3>
         <p>With: {{ activeCall.withUserId }}</p>

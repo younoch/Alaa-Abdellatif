@@ -1,6 +1,15 @@
 # Nuxt Minimal Starter
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Development Requirements
+
+- Node.js 20.x
+- npm 9.x
+
+Recommend using nvm:
+```bash
+nvm install 20
+nvm use 20
+npm install
 
 ## Setup
 
